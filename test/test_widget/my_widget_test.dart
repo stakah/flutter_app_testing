@@ -11,7 +11,7 @@ void main() {
 
     // Create the Finders.
     final titleFinder = find.text('T');
-    final messageFinder = find.text('M');
+    final messageFinder = find.text('B');
 
     // Use the `findsOneWidget` matcher provided by flutter_test to verify
     // that the Text widgets appear exactly once in the widget tree.
